@@ -17,7 +17,7 @@ public:
         UVP       = 0x09, // 欠压
         OCP       = 0x0A, // 过电流
         MOS_OTP   = 0x0B, // MOS过温
-        MOTOR_OTP = 0x0C, // 电机过温
+        MOTOR_OTP = 0x0C, // 电机线圈过温
         COMM_LOST = 0x0D, // 通讯丢失
         OVERLOAD  = 0x0E  // 过载
     } err_code = NONE;

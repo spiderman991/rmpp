@@ -2,7 +2,7 @@ file(GLOB_RECURSE USER_SOURCES
         "lib/*.*"
 
         # 整车代码
-        "app/hero/app.cpp"
+        #"app/hero/app.cpp"
         # "app/infantry/app.cpp"
         # "app/sentry/app.cpp"
 
@@ -21,6 +21,7 @@ file(GLOB_RECURSE USER_SOURCES
         # "app/debug/shooter_rub4.cpp"
         # "app/debug/shooter_shoot.cpp"
         # "app/debug/shooter.cpp"
+         "app/debug/dm4310_debug.cpp"
 )
 
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
